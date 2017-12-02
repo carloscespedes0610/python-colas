@@ -1,22 +1,11 @@
+from ejercicio_cola import *
 from class_cola import *
 
-cola = Cola(9)
+ej = ejercicio_cola()
 
-#print(cola.Encolar(8))
-#print(cola.Encolar(5))
-#print(cola.Encolar(9))
+cola = Cola(8)
+cola.Leer_Cola(1,5,9,8,7,6)
+print(ej.Numero_Elementos(cola))
 
-#cola.Imprimir_Cola_Dev()
-#
-#print(cola.Desencolar())
-#cola.Imprimir_Cola_Dev()
-
-cola.Leer_Cola(1,2,3,4,5,6,7,8)
+cola=ej.k_enesimo(cola,10)
 cola.Imprimir_Cola_Dev()
-
-#cola.Invertir()
-
-print(cola.Quitar_Primero())
-cola.Imprimir_Cola_Dev()
-
-

@@ -50,8 +50,7 @@ class Cola:
         self.cola.pop(0)
         
     
-    
-    
+   
     
     def Imprimir_Cola(self):
         print("Imprimiento Cola:")
