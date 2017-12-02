@@ -25,6 +25,24 @@ class Cola:
             return self.cola.pop(0)
     
     
+    def Leer_Cola(self, *elementos):
+
+        for k in elementos:
+            print(self.Encolar(k))
+            
+    def Num_Elem_Cola(self):
+        return len(self.cola)
+            
+    def Invertir(self):
+        lista=list()
+        while(not self.Cola_Vacia()):
+            lista.append(self.cola.pop(self.Num_Elem_Cola()-1))
+    
+        self.cola = lista
+        
+    
+    
+    
     
     def Imprimir_Cola(self):
         print("Imprimiento Cola:")
