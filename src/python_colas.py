@@ -1,6 +1,12 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
+from class_cola import *
 
-if __name__ == "__main__":
-    print("Hello World")
+cola = Cola(9)
+
+print(cola.Encolar(8))
+print(cola.Encolar(5))
+print(cola.Encolar(9))
+
+cola.Imprimir_Cola_Dev()
+
+print(cola.Desencolar())
+cola.Imprimir_Cola_Dev()
