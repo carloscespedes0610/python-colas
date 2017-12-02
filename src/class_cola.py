@@ -39,6 +39,12 @@ class Cola:
             lista.append(self.cola.pop(self.Num_Elem_Cola()-1))
     
         self.cola = lista
+    
+    def Primero(self):
+        if (self.Cola_Vacia()):
+            return "No Existe Ningun Elemento En La Cola, Cola Vacia"
+        else:
+            return self.cola[0]
         
     
     
