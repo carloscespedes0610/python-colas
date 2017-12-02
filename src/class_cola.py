@@ -45,6 +45,9 @@ class Cola:
             return "No Existe Ningun Elemento En La Cola, Cola Vacia"
         else:
             return self.cola[0]
+    
+    def Quitar_Primero(self):
+        self.cola.pop(0)
         
     
     

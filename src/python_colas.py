@@ -16,7 +16,7 @@ cola.Imprimir_Cola_Dev()
 
 #cola.Invertir()
 
-print(cola.Primero())
+print(cola.Quitar_Primero())
 cola.Imprimir_Cola_Dev()
 
 
