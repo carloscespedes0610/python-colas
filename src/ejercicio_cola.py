@@ -26,8 +26,7 @@ class ejercicio_cola:
                     var_cola=cola_aux
                     
             else:
-                 print( "la posicion debe ser menor al tamano de la cola")
+                 print( "la posicion debe ser menor o igual al numero de elementos de la cola")
         else:
             print( "la posicion debe ser mayor a 0")
         return var_cola
-    

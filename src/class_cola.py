@@ -16,7 +16,6 @@ class Cola:
             return "Cola Llena, el elemento "+str(elemento)+" no pudo ser agregado"
         else:
             self.cola.append(elemento)
-            return "Elemento Agregado: "+str(elemento)
     
     def Desencolar(self):
         if(self.Cola_Vacia()):
@@ -28,7 +27,7 @@ class Cola:
     def Leer_Cola(self, *elementos):
 
         for k in elementos:
-            print(self.Encolar(k))
+            self.Encolar(k)
             
     def Num_Elem_Cola(self):
         return len(self.cola)
